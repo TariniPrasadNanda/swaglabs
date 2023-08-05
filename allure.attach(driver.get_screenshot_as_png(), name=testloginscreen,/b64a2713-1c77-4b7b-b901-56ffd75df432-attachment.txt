@@ -1,0 +1,3 @@
+[32mINFO    [0m test_swaglabs:test_swaglabs.py:12 Sending username
+[32mINFO    [0m test_swaglabs:test_swaglabs.py:14 Sending password
+[32mINFO    [0m test_swaglabs:test_swaglabs.py:16 Clicking on login button
