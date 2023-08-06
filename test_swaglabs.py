@@ -65,20 +65,20 @@ def test_login_performance_glitch_user(initialize_driver):
     time.sleep(2)
 
 
-# def test_addtocart(initialize_driver):
-#     driver = initialize_driver
-#     driver.find_element("xpath", "//input[@id='user-name']").send_keys("standard_user")
-#     driver.find_element("xpath", "//input[@id='password']").send_keys("secret_sauce")
-#     driver.find_element("xpath", "//input[@id='login-button']").click()
-#     driver.find_element("xpath", "//input[@id='login-button']").click()
-#     driver.find_element("xpath", "//input[@id='login-button']").click()
-#
-#
-#
-#     driver.implicitly_wait(5)
-#     assert driver.find_element("xpath", "//div[contains(text(),'Swag Labs')]")
-#     time.sleep(2)
-#     driver.find_element("xpath", "//button[@id='react-burger-menu-btn']").click()
-#     time.sleep(2)
-#     driver.find_element("xpath", "//a[@id='logout_sidebar_link']").click()
-#     time.sleep(2)
+def test_addtocart(initialize_driver):
+    driver = initialize_driver
+    driver.find_element("xpath", "//input[@id='user-name']").send_keys("standard_user")
+    driver.find_element("xpath", "//input[@id='password']").send_keys("secret_sauce")
+    driver.find_element("xpath", "//input[@id='login-button']").click()
+    driver.find_element("xpath", "//input[@id='login-button']").click()
+    driver.find_element("xpath", "//input[@id='login-button']").click()
+
+
+
+    driver.implicitly_wait(5)
+    assert driver.find_element("xpath", "//div[contains(text(),'Swag Labs')]")
+    time.sleep(2)
+    driver.find_element("xpath", "//button[@id='react-burger-menu-btn']").click()
+    time.sleep(2)
+    driver.find_element("xpath", "//a[@id='logout_sidebar_link']").click()
+    time.sleep(2)
